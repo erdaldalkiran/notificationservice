@@ -5,7 +5,13 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tests", ".tests", "{074D2711-E306-43AB-89EA-5ACEDCBC1FB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamrad.Notification.ApiTests", "src\tests\Kamrad.Notification.ApiTests\Kamrad.Notification.ApiTests.csproj", "{5FA9DE6A-2685-4B99-85A3-C2E9BF123418}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamrad.NotificationService.ApiTests", "src\tests\Kamrad.NotificationService.ApiTests\Kamrad.NotificationService.ApiTests.csproj", "{5FA9DE6A-2685-4B99-85A3-C2E9BF123418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamrad.NotificationService.Api", "src\Kamrad.NotificationService.Api\Kamrad.NotificationService.Api.csproj", "{CE08F997-6B7E-4675-83E7-BC04296A1A4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamrad.NotificationService.UnitTests", "src\tests\Kamrad.NotificationService.UnitTests\Kamrad.NotificationService.UnitTests.csproj", "{3018217D-931D-4BEE-BE6C-081EDE358A5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamrad.NotificationService.Business", "src\Kamrad.NotificationService.Business\Kamrad.NotificationService.Business.csproj", "{C0C377E4-8E27-4434-A57A-7230CB325EB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,11 +23,24 @@ Global
 		{5FA9DE6A-2685-4B99-85A3-C2E9BF123418}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FA9DE6A-2685-4B99-85A3-C2E9BF123418}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FA9DE6A-2685-4B99-85A3-C2E9BF123418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE08F997-6B7E-4675-83E7-BC04296A1A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE08F997-6B7E-4675-83E7-BC04296A1A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE08F997-6B7E-4675-83E7-BC04296A1A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE08F997-6B7E-4675-83E7-BC04296A1A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3018217D-931D-4BEE-BE6C-081EDE358A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3018217D-931D-4BEE-BE6C-081EDE358A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3018217D-931D-4BEE-BE6C-081EDE358A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3018217D-931D-4BEE-BE6C-081EDE358A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C377E4-8E27-4434-A57A-7230CB325EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C377E4-8E27-4434-A57A-7230CB325EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C377E4-8E27-4434-A57A-7230CB325EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C377E4-8E27-4434-A57A-7230CB325EB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5FA9DE6A-2685-4B99-85A3-C2E9BF123418} = {074D2711-E306-43AB-89EA-5ACEDCBC1FB6}
+		{3018217D-931D-4BEE-BE6C-081EDE358A5D} = {074D2711-E306-43AB-89EA-5ACEDCBC1FB6}
 	EndGlobalSection
 EndGlobal
